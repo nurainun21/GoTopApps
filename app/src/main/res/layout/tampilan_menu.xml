@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:onClick="ClickRS"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            app:srcCompat="@drawable/hospital" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_weight="1"
+            android:onClick="ClickPolisi"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            app:srcCompat="@drawable/police" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_weight="1"
+            android:onClick="ClickGrocery"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            app:srcCompat="@drawable/cart" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_weight="1"
+            android:onClick="ClickSekolah"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            app:srcCompat="@drawable/images" />
+    </TableRow>
+</LinearLayout>
